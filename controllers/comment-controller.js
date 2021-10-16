@@ -27,7 +27,7 @@ const commentController = {
     Comment.findOneAndUpdate(
       { _id: params.commentId },
       { $push: { replies: body } },
-      { new: true }
+      { new: true, runValidators: true }
     )
       .then(dbPizzaData => {
         if (!dbPizzaData) {
@@ -37,7 +37,7 @@ const commentController = {
         res.json(dbPizzaData);
       })
       .catch(err => res.json(err));
-  },
+},
 
   // remove comment
     removeComment({ params }, res) {
