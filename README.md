@@ -9,8 +9,8 @@
 Pizza hunt is a simplistic social media in which users can share their ideas about tasty and innovative pizza combinations. Users can comment on other's creations and also reply to comments.
 
 ## Website
-Share your ideal pizza or comment on other's creations <a href='https://quiet-fortress-66884.herokuapp.com/'>here</a>!
-<img alt="screenshot from website" src="./assets/images/pizza-hunt-ss.png"></img>
+Share your ideal pizza or comment on other's creations <a href='https://pizza-hunt-padredilg.herokuapp.com/'>here</a>!
+<img alt="screenshot from website" src="./public/assets/images/pizza-hunt-ss.png"></img>
 
 ## License
 This application is covered under the <a href='https://opensource.org/licenses/MIT'>MIT License</a>
